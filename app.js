@@ -4,7 +4,7 @@ const request = require("request");
 const favicon = require("serve-favicon");
 
 const app = express();
-const PORT = process.env.PORT | 3000;
+const PORT = process.env.PORT || 3000;
 
 const dc = "us6";
 const audience_list = "57c533a7f4";
